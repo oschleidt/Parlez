@@ -16,13 +16,13 @@ class Hello_world extends CI_Controller {
         $this->email->message('Testing the email class.');
 
 
-        if($this->email->send())
+        /*if($this->email->send())
         {
             echo 'Email sent.';
         }
         else
         {
             show_error($this->email->print_debugger());
-        }
+        }*/
 	}
 }
