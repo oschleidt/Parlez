@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2114fb07-6478-484d-abaa-df2376985e08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/libraries/Email.php" afterPath="$PROJECT_DIR$/system/libraries/Email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/hello_world.php" afterPath="$PROJECT_DIR$/application/controllers/hello_world.php" />
     </list>
     <ignored path="Parlez.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Email.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Email.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/libraries/Email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="34" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.49285713" vertical-offset="165" max-vertical-offset="31470">
+            <state line="35" column="26" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-12.5" vertical-offset="225" max-vertical-offset="31470">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello_world.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="hello_world.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/hello_world.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="58" selection-start="444" selection-end="444" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="480">
+            <state line="27" column="5" selection-start="648" selection-end="648" vertical-scroll-proportion="0.56802243" vertical-offset="0" max-vertical-offset="713">
               <folding />
             </state>
           </provider>
@@ -89,8 +90,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/application/views/hello_world.php" />
-        <option value="$PROJECT_DIR$/application/controllers/hello_world.php" />
         <option value="$PROJECT_DIR$/system/libraries/Email.php" />
+        <option value="$PROJECT_DIR$/application/controllers/hello_world.php" />
       </list>
     </option>
   </component>
@@ -307,13 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/hello_world.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="109" selection-end="109" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="52" selection-start="769" selection-end="769" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
@@ -321,16 +315,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/hello_world.php">
+    <entry file="file://$PROJECT_DIR$/system/libraries/Email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="58" selection-start="444" selection-end="444" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="480">
+        <state line="35" column="26" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-12.5" vertical-offset="225" max-vertical-offset="31470">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/libraries/Email.php">
+    <entry file="file://$PROJECT_DIR$/application/views/hello_world.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="34" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.49285713" vertical-offset="165" max-vertical-offset="31470">
+        <state line="10" column="4" selection-start="109" selection-end="109" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/hello_world.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="5" selection-start="648" selection-end="648" vertical-scroll-proportion="0.56802243" vertical-offset="0" max-vertical-offset="713">
           <folding />
         </state>
       </provider>
