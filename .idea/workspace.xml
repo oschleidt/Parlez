@@ -37,7 +37,7 @@
       <file leaf-file-name="Email.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/system/libraries/Email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="52" selection-start="988" selection-end="988" vertical-scroll-proportion="0.3" vertical-offset="285" max-vertical-offset="31470">
+            <state line="36" column="30" selection-start="1164" selection-end="1164" vertical-scroll-proportion="-0.15" vertical-offset="645" max-vertical-offset="31470">
               <folding />
             </state>
           </provider>
@@ -272,13 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="114.375" vertical-offset="2745" max-vertical-offset="5520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="737">
@@ -300,13 +293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/hello_world.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="109" selection-end="109" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/hello_world.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="58" selection-start="444" selection-end="444" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="480">
@@ -314,9 +300,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/hello_world.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="109" selection-end="109" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="114.375" vertical-offset="2745" max-vertical-offset="5520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/system/libraries/Email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="52" selection-start="988" selection-end="988" vertical-scroll-proportion="0.3" vertical-offset="285" max-vertical-offset="31470">
+        <state line="36" column="30" selection-start="1164" selection-end="1164" vertical-scroll-proportion="-0.15" vertical-offset="645" max-vertical-offset="31470">
           <folding />
         </state>
       </provider>
