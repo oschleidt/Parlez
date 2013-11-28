@@ -4,6 +4,8 @@ class Hello_world extends CI_Controller {
 
 	public function index()
 	{
+        $this->load->library('email');
+
 		$this->load->view('hello_world');
 	}
 }
