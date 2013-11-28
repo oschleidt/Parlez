@@ -15,7 +15,6 @@ class Hello_world extends CI_Controller {
         $this->email->subject('Email Test');
         $this->email->message('Testing the email class.');
 
-        echo php_info();
 
         if($this->email->send())
         {
