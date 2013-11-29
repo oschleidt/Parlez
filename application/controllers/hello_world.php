@@ -27,13 +27,13 @@ class Hello_world extends CI_Controller {
         echo getenv("SENDGRID_PASSWORD");
 
 
-        /*if($this->email->send())
+        if($this->email->send())
         {
             echo 'Email sent.';
         }
         else
         {
             show_error($this->email->print_debugger());
-        }*/
+        }
 	}
 }

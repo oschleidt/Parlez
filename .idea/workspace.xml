@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2114fb07-6478-484d-abaa-df2376985e08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/libraries/Email.php" afterPath="$PROJECT_DIR$/system/libraries/Email.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/hello_world.php" afterPath="$PROJECT_DIR$/application/controllers/hello_world.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Parlez.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +55,7 @@
       <file leaf-file-name="hello_world.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/hello_world.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="46" selection-start="448" selection-end="448" vertical-scroll-proportion="0.31556803" vertical-offset="0" max-vertical-offset="713">
+            <state line="36" column="9" selection-start="927" selection-end="927" vertical-scroll-proportion="0.75736326" vertical-offset="0" max-vertical-offset="713">
               <folding />
             </state>
           </provider>
@@ -395,7 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/hello_world.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="46" selection-start="448" selection-end="448" vertical-scroll-proportion="0.31556803" vertical-offset="0" max-vertical-offset="713">
+        <state line="36" column="9" selection-start="927" selection-end="927" vertical-scroll-proportion="0.75736326" vertical-offset="0" max-vertical-offset="713">
           <folding />
         </state>
       </provider>
