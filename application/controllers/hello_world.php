@@ -4,7 +4,16 @@ class Hello_world extends CI_Controller {
 
 	public function index()
 	{
-        $this->load->library('email');
+
+        $config = Array(
+            'protocol' => 'smtp',
+            'smtp_host' => 'smtp.sendgrid.net',
+            'smtp_port' => 587,
+            'smtp_user' => $_ENV['SENDGRID_USERNAME'],
+            'smtp_pass' => $_ENV['SENDGRID_PASSWORD'], );
+
+
+        $this->load->library('email', $config);
 
 		$this->load->view('hello_world');
 

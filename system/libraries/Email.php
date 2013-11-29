@@ -32,8 +32,8 @@ class CI_Email {
 	//var	$mailpath		= "/usr/sbin/sendmail";	// Sendmail path
 	var	$protocol		= "smtp";	// mail/sendmail/smtp
 	var	$smtp_host		= "smtp.sendgrid.net";		// SMTP Server.  Example: mail.earthlink.net
-	var	$smtp_user		= getenv("SENDGRID_USERNAME"); //"app19728109@heroku.com";		// SMTP Username
-	var	$smtp_pass		= getenv("SENDGRID_PASSWORD"); //"pqkxj4by";		// SMTP Password
+	var	$smtp_user		= ""; //"app19728109@heroku.com";		// SMTP Username
+	var	$smtp_pass		= "";   // SMTP Password
 	var	$smtp_port		= "587";		// SMTP Port
 	var	$smtp_timeout	= 5;		// SMTP Timeout in seconds
 	var	$smtp_crypto	= "";		// SMTP Encryption. Can be null, tls or ssl.

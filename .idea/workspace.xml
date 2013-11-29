@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2114fb07-6478-484d-abaa-df2376985e08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/libraries/Email.php" afterPath="$PROJECT_DIR$/system/libraries/Email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/hello_world.php" afterPath="$PROJECT_DIR$/application/controllers/hello_world.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Parlez.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,25 +30,34 @@
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="114.375" vertical-offset="2745" max-vertical-offset="5520">
+            <state line="23" column="51" selection-start="727" selection-end="727" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="5520">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Email.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Email.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/libraries/Email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="51" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.49285713" vertical-offset="165" max-vertical-offset="31470">
+            <state line="43" column="55" selection-start="1609" selection-end="1609" vertical-scroll-proportion="-10.625" vertical-offset="390" max-vertical-offset="31470">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello_world.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="hello_world.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/hello_world.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="459" selection-end="487" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="525">
+            <state line="15" column="46" selection-start="448" selection-end="448" vertical-scroll-proportion="0.31556803" vertical-offset="0" max-vertical-offset="713">
               <folding />
             </state>
           </provider>
@@ -90,8 +101,8 @@
       <list>
         <option value="$PROJECT_DIR$/application/views/hello_world.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
-        <option value="$PROJECT_DIR$/application/controllers/hello_world.php" />
         <option value="$PROJECT_DIR$/system/libraries/Email.php" />
+        <option value="$PROJECT_DIR$/application/controllers/hello_world.php" />
       </list>
     </option>
   </component>
@@ -210,6 +221,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parlez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parlez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -301,13 +330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="114.375" vertical-offset="2745" max-vertical-offset="5520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/hello_world.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="4" selection-start="109" selection-end="109" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
@@ -322,16 +344,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/hello_world.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="459" selection-end="487" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="525">
+        <state line="23" column="51" selection-start="727" selection-end="727" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="5520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/doctypes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5568023" vertical-offset="397" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/libraries/Email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="51" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.49285713" vertical-offset="165" max-vertical-offset="31470">
+        <state line="43" column="55" selection-start="1609" selection-end="1609" vertical-scroll-proportion="-10.625" vertical-offset="390" max-vertical-offset="31470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/hello_world.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="46" selection-start="448" selection-end="448" vertical-scroll-proportion="0.31556803" vertical-offset="0" max-vertical-offset="713">
           <folding />
         </state>
       </provider>
