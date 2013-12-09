@@ -135,10 +135,6 @@ class Hello_world extends CI_Controller {
 		$this->load->view('container', $data);
 	}
 	
-	public function register() {
-		echo 0;
-	}
-	
 	public function sendmail() {
         $config = Array(
             'protocol' => 'smtp',
@@ -195,6 +191,12 @@ class Hello_world extends CI_Controller {
 	
 	public function dialog() {
 		$this->load->view('dialog');
+	}
+	
+	public function register() {
+		$this->load->model('register_model');
+		
+		return $this->register_model->register($this->input->post('email'), $this->input->post('password'), $this->input->post('name'));
 	}
 }
 ?>

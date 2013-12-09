@@ -456,7 +456,7 @@ function reg_check() {
 	{
 		$.ajax({
 			type: "POST",
-			url: "http://192.168.148.133/Test/index.php/hello_world/register",
+			url: "/index.php/hello_world/register",
 			data: { name : name , email : email , password : password }
 		})
 		.done(function( data ) {
