@@ -495,7 +495,7 @@ function changeNews(x) {
     $("#newsfade").fadeOut('slow', function() {
         $.ajax({
             type: "POST",
-            url: "http://192.168.148.133/Test/index.php/hello_world/update_newsform",
+            url: "index.php/hello_world/update_newsform",
             data: { id: id }
         })
             .done(function( data ) {
