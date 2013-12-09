@@ -6,6 +6,6 @@
 		<div class="option" id="option_edit_account" onclick="document.location.href='/?page=accountsettings'"> Kontoeinstellungen bearbeiten</div>
 		<!--<div class="option" id="option_logout" onclick="<?php echo base_url()."index.php/hello_world/logout" ?>"> Ausloggen</div>-->
 		
-		<div class="option" id="option_logout" onclick="document.location.href='/Test/index.php/hello_world/logout'"> Ausloggen</div>
+		<div class="option" id="option_logout" onclick="document.location.href='/index.php/hello_world/logout'"> Ausloggen</div>
 
 	</div>
