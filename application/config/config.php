@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'http://parlez.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
@@ -224,7 +224,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'test';
 
 /*
 |--------------------------------------------------------------------------
@@ -360,3 +360,8 @@ $config['proxy_ips'] = '';
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
+
+//$config['javascript_location'] = 'assets/jquery.js';
+
+//$config['javascript_location'] = 'js/jquery/jquery.js';
+
