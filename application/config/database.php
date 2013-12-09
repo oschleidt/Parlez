@@ -48,10 +48,29 @@
 $active_group = 'default';
 $active_record = TRUE;
 
+$url = parse_url($_ENV['CLEARDB_DATABASE_URL']);
+/*
+    $server = $url["us-cdbr-east-04.cleardb.com"];
+    $username = $url["b94d6e393eb1fc"];
+    $password = $url["dace9c4c"];
+    $dbe = substr($url["heroku_6b258749f06b2d9"],1);
+
+	$server = $url["host"];
+	$username = $url["user"];
+	$password = $url["pass"];
+	$dbe = substr($url["path"],1);
+
 $db['default']['hostname'] = $_ENV['DATABASE_URL'];
 $db['default']['username'] = $_ENV['DATABASE_USR'];
 $db['default']['password'] = $_ENV['DATABASE_PW'];
 $db['default']['database'] = $_ENV['DATABASE_NAME'];
+*/
+
+
+$db['default']['hostname'] = $url["host"];
+$db['default']['username'] = $url["user"];
+$db['default']['password'] = $url["pass"];
+$db['default']['database'] = $url["path"];
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
