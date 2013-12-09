@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['hostname'] = $_ENV['DATABASE_URL'];
+$db['default']['username'] = $_ENV['DATABASE_USR'];
+$db['default']['password'] = $_ENV['DATABASE_PW'];
+$db['default']['database'] = $_ENV['DATABASE_NAME'];
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
