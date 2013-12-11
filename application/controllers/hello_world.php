@@ -177,15 +177,15 @@ class Hello_world extends CI_Controller {
 		}
 		else
 		{
-			return false;
-	        /*if($this->email->send())
+			//return false;
+	        if($this->email->send())
 	        {
 	            return false;
 	        }
 	        else
 	        {
 	            show_error($this->email->print_debugger());
-	        }*/
+	        }
 		}
 	}
 	
