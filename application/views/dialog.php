@@ -24,11 +24,11 @@
 					'class' => 'email-input input'
 				);
 			}
-			$test = array(
+			/*$test = array(
 				'name' => 'message',
 				'placeholder' => 'Enter a Message',
 				'class' => 'message-input input'
-			);
+			);*/
 			?>
 			<?php 
 				echo form_open('hello_world/sendmail');
@@ -45,8 +45,8 @@
 									'placeholder' => 'test',
 									'class' => 'input'
 								));*/
-					echo form_input($test);
-					echo '<div class="b error"></div>';
+					/*echo form_input($test);
+					echo '<div class="b error"></div>';*/
 			?>
 			<!--<input class="email-input" type="text" name="email" value="" placeholder="Enter Email Addresses" />-->
 		</div>

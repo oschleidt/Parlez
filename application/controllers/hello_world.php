@@ -156,7 +156,7 @@ class Hello_world extends CI_Controller {
         //echo getenv("SENDGRID_PASSWORD");
 		
 		$this->form_validation->set_rules('email', 'Email', 'required|valid_emails');
-		$this->form_validation->set_rules('message', 'Message', 'required|min_length[5]');
+		//$this->form_validation->set_rules('message', 'Message', 'required|min_length[5]');
 		
 		//$this->form_validation->set_rules('email', 'Email', '');
 		//$this->form_validation->set_rules('message', 'Message', '');
@@ -167,7 +167,7 @@ class Hello_world extends CI_Controller {
 			$this->output
 			->set_content_type('application/json')
 			->set_output(json_encode(array(
-				"message_error" => form_error('message'),
+				/*"message_error" => form_error('message'),*/
 				"email_error" => form_error('email')				
 			)));
 			//$this->load->view('error');
