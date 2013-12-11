@@ -8,7 +8,7 @@ class test {
 
 <div id="banner">
     <div class="wrapper">
-        <a href="index.php" id="title">Name</a><br/>
+        <a href="index.php" id="title">Parlez</a><br/>
         <a href="index.php" id="subtitle"> - get connected</a>
         <div id="menu">
 
