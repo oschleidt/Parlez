@@ -629,9 +629,9 @@ function validatInvite() {
 				$('.a').fadeTo("slow", 0, function() {
 					$('.a').html(data.email_error).fadeTo("slow", 100);
 				});
-				$('.b').fadeTo("slow", 0, function() {
+				/*$('.b').fadeTo("slow", 0, function() {
 					$('.b').html(data.message_error).fadeTo("slow", 100);
-				});
+				});*/
 			}
 			
 			
