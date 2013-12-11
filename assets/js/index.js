@@ -342,7 +342,6 @@ function login() {
 			data: { email : email , password : password }
 		})
 		.done(function( data ) {
-			alert(data);
 			if ( data == 0 ) {
 				document.location.href = '';
 				//document.write("Hallo");
