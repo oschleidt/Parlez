@@ -155,6 +155,8 @@ window.onload = function() {
 		}
 	});
 
+	/* Suchfunktion ausgeschaltet
+	
 	$("#searchInput").keypress(function ( event ) {
 		if ( event.which == 13 ) {
 			$("#searchLupe").click();
@@ -167,7 +169,7 @@ window.onload = function() {
 
 	$(".searchName").click(function() {
 		document.location.href='/Test/?page=profile&id='+$(this).attr('value');
-	});
+	});*/
 
 	/*####################
 		Loginformular
@@ -618,12 +620,6 @@ function validatInvite() {
 						//$('.wrapper').append(data);
 					}
 				});*/
-				
-				
-				//$('#dialog-content').html("<div class='success'>Erfolgreich eingeladen<div>");
-				/*window.setTimeout(function() {
-				            window.location.replace("/Test");
-				        }, 4000);*/
 			}
 			else {
 				$('.a').fadeTo("slow", 0, function() {
