@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\michi\Desktop\Parlez</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>06/16/2014 12:54:36</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>06/16/2014 12:54:36</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.AspNet.SignalR.Core.resources.dll">
+      <publishTime>05/27/2014 13:23:15</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Owin.Host.SystemWeb.resources.dll">
+      <publishTime>05/27/2014 13:23:16</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Owin.resources.dll">
+      <publishTime>05/27/2014 13:23:15</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Owin.Security.resources.dll">
+      <publishTime>05/27/2014 13:23:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>05/27/2014 13:23:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>05/27/2014 13:23:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>05/27/2014 13:23:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>05/27/2014 13:23:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>05/27/2014 13:23:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/27/2014 13:23:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/27/2014 13:22:58</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>05/27/2014 13:22:58</publishTime>
+    </File>
+    <File Include="bin/Parlez_4.5.1.dll">
+      <publishTime>06/16/2014 12:54:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/27/2014 13:23:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/27/2014 13:23:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/27/2014 13:23:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>05/27/2014 13:23:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>05/27/2014 13:23:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>05/27/2014 13:23:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>05/27/2014 13:34:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>05/27/2014 13:34:32</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>05/27/2014 13:34:31</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/27/2014 13:34:32</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/27/2014 13:34:32</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/27/2014 13:34:32</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/27/2014 13:34:32</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/27/2014 13:34:32</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>06/16/2014 12:54:35</publishTime>
+    </File>
+    <File Include="Ressourcen/Images/Header.png">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Config.js">
+      <publishTime>06/16/2014 12:00:47</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Controller/ChatCtrl.js">
+      <publishTime>06/03/2014 19:42:03</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Controller/HomeCtrl.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Controller/InviteCtrl.js">
+      <publishTime>06/16/2014 11:56:40</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Controller/MainCtrl.js">
+      <publishTime>06/03/2014 19:42:03</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-animate.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-animate.min.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-animate.min.js.map">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-cookies.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-cookies.min.js">
+      <publishTime>05/27/2014 13:17:58</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-cookies.min.js.map">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-csp.css">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-loader.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-loader.min.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-loader.min.js.map">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-mocks.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-resource.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-resource.min.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-resource.min.js.map">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-route.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-route.min.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-route.min.js.map">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-sanitize.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-sanitize.min.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-sanitize.min.js.map">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-scenario.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-touch.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-touch.min.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular-touch.min.js.map">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular.min.js">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/angular.min.js.map">
+      <publishTime>05/27/2014 13:17:55</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/errors.json">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/jquery-1.10.2.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/jquery-1.10.2.min.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/jquery-1.10.2.min.map">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/jquery.signalR-2.0.0.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/jquery.signalR-2.0.0.min.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/jquery.validate.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/jquery.validate.min.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/jquery.validate.unobtrusive.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/jquery.validate.unobtrusive.min.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/version.json">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Frameworks/version.txt">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Scripts/Services/ChatConnectionService.js">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Ressourcen/Style/Style.css">
+      <publishTime>05/27/2014 13:17:56</publishTime>
+    </File>
+    <File Include="Views/Chat/ChatView.cshtml">
+      <publishTime>06/03/2014 19:42:04</publishTime>
+    </File>
+    <File Include="Views/EmailSenden/EmailSendenView.cshtml">
+      <publishTime>06/16/2014 12:02:02</publishTime>
+    </File>
+    <File Include="Views/Header/HeaderView.cshtml">
+      <publishTime>05/27/2014 13:17:57</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>06/03/2014 19:42:04</publishTime>
+    </File>
+    <File Include="Views/StartPage/StartPageView.cshtml">
+      <publishTime>06/03/2014 19:42:04</publishTime>
+    </File>
+    <File Include="Views/Testlogin/TestloginView.cshtml">
+      <publishTime>05/27/2014 13:17:57</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>05/27/2014 13:17:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/16/2014 12:54:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

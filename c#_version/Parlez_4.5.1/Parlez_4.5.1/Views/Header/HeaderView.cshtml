@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "HeaderView";
+}
+
+<div id="banner">
+	<img src="/Ressourcen/Images/Header.png" height="100px" /><br />
+    <div id="subtitle">Chat with all your friends!</div>
+</div>
+
+<div id="navwrapper">
+	<div id="navarea" ng-mouseleave="navbar_show=false">
+		<div id="navbar" class="navbar_animation" ng-show="navbar_show">
+			<div class="navlink" ng-repeat="link in links" ng-click="setPage(link.value)">
+				{{link.name}}
+			</div>
+			@if (WebSecurity.IsAuthenticated)
+			{
+				<div id="navstatus">Eingeloggt als @WebSecurity.CurrentUserName</div>
+			}
+			else
+			{
+				<div id="navstatus">nicht eingeloggt</div>
+			}
+		</div>
+	</div>
+</div>

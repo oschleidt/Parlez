@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "HeaderView";
+}
+
+<div id="banner">
+	<img src="/Ressourcen/Images/Header.png" height="200px" />
+</div>
+
+<div id="navwrapper">
+	<div id="navarea" ng-mouseleave="navbar_show=false">
+		<div id="navbar" class="navbar_animation" ng-show="navbar_show">
+			<div class="navlink">
+				MENU
+			</div>
+			<div class="navlink" ng-repeat="link in links" ng-click="setPage(link.value)">
+				{{link.name}}
+			</div>
+		</div>
+		<div id="navbar_trigger" ng-hide="navbar_show" ng-mouseenter="navbar_show=true">
+			Menu
+		</div>
+	</div>
+</div>

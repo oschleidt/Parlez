@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div id="mainFrame" class="contentwrapper">
+	<div class="content">
+		@if (!WebSecurity.IsAuthenticated) {
+            <div id="contenttitle">Login</div><br />
+			<input type="text" placeholder="Name" ng-model="username" />
+			<input type="password" placeholder="Passwort" ng-model="password" />
+			<input type="button" value="Login" ng-click="login(username, password)" />
+		}
+		else
+		{
+			<div id="contenttitle" ng-init="logout()">Sie werden ausgeloggt...</div>
+		}
+	</div>
+</div>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.SignalR.SystemWeb.de</id>
+    <version>2.0.3</version>
+    <title>Deutsche Ressourcen für Microsoft ASP.NET SignalR SystemWeb</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_DEU.htm</licenseUrl>
+    <projectUrl>http://www.asp.net/signalR</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Dieses Paket enthält die deutschen Satellitenassemblys für ASP.NET SignalR SystemWeb.</description>
+    <summary>Deutsche Ressourcen für das Microsoft.AspNet.SignalR.SystemWeb-Paket</summary>
+    <language>de</language>
+    <tags>Microsoft AspNet SignalR AspNetSignalR SystemWeb</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.SignalR.SystemWeb" version="[2.0.3]" />
+    </dependencies>
+  </metadata>
+</package>

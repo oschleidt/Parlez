@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "EmailSendenView";
+}
+
+<div id="mainFrame" class="contentwrapper">
+    <div class="content">
+        <div id="contenttitle">Kontakt einladen</div><br />
+        <input type="text" placeholder="E-Mail" value="default" ng-model="email" />
+        <input type="button" value="senden" ng-click="invite(email)" />
+    </div>
+</div>

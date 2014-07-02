@@ -1,0 +1,34 @@
+﻿<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/Ressourcen/Style/Style.css"> </link>
+	<script type="text/javascript" src="/Ressourcen/Scripts/Frameworks/jquery-1.10.2.min.js"> </script>
+	<script type="text/javascript" src="/Ressourcen/Scripts/Frameworks/jquery.signalR-2.0.0.min.js"> </script>
+	<script type="text/javascript" src="/Ressourcen/Scripts/Frameworks/angular.min.js"> </script>
+	<script type="text/javascript" src="/Ressourcen/Scripts/Frameworks/angular-route.min.js"> </script>
+
+	<script type="text/javascript" src="/Ressourcen/Scripts/Controller/MainCtrl.js"> </script>
+
+	@if (WebSecurity.IsAuthenticated)
+	{
+		<script>
+			var globalUsername = '@WebSecurity.CurrentUserName';
+		</script>
+	
+		<script type="text/javascript" src="/Ressourcen/Scripts/Config_auth.js"> </script>
+		<script type="text/javascript" src="/Ressourcen/Scripts/Services/ChatConnectionService.js"> </script>
+		<script type="text/javascript" src="/Ressourcen/Scripts/Controller/ChatCtrl.js"> </script>
+	    <script type="text/javascript" src="/Ressourcen/Scripts/Controller/InviteCtrl.js"> </script>
+	} else { 
+		<script type="text/javascript" src="/Ressourcen/Scripts/Config.js"> </script>
+	}
+	<script type="text/javascript" src="/Ressourcen/Scripts/Controller/HomeCtrl.js"> </script>
+	<script type="text/javascript" src="/Ressourcen/Scripts/Controller/LoginCtrl.js" > </script>
+	<script type="text/javascript" src="/Ressourcen/Scripts/Controller/RegisterCtrl.js"> </script>
+</head>
+<body data-ng-app="ChatApp">
+	<div data-ng-controller="MainCtrl" style="display: flex; flex-direction: column; height: 100%">
+		<div id="header" data-ng-include="'/Header/HeaderView'"> </div>
+		<div id="view" ng-view>	</div>
+	</div>
+</body>
+</html>

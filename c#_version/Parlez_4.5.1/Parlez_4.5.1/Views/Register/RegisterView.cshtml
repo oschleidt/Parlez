@@ -1,0 +1,14 @@
+﻿@{
+	ViewBag.Title = "HomeView";
+}
+
+<div id="mainFrame" class="contentwrapper">
+	<div class="content">
+		@if (!WebSecurity.IsAuthenticated) {
+            <div id="contenttitle">Registrieren</div><br />
+			<input type="text" placeholder="Name" ng-model="username" /><br />
+			<input type="text" placeholder="Passwort" ng-model="password" /><br />
+			<input type="button" value="Register" ng-click="register(username, password)" />
+		}
+	</div>
+</div>

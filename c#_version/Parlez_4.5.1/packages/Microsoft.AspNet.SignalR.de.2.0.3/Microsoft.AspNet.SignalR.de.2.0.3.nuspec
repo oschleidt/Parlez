@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.SignalR.de</id>
+    <version>2.0.3</version>
+    <title>Deutsche Ressourcen für Microsoft ASP.NET SignalR</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_DEU.htm</licenseUrl>
+    <projectUrl>http://www.asp.net/signalR</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Dies ist ein Metapaket für die deutschen Satellitenassemblys für ASP.NET SignalR.</description>
+    <summary>Deutsche Ressourcen für das Microsoft.AspNet.SignalR-Paket</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <language>de</language>
+    <tags>Microsoft AspNet SignalR AspNetSignalR websockets real-time realtime comet HTTP streaming</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.SignalR.JS" version="2.0.3" />
+      <dependency id="Microsoft.AspNet.SignalR.SystemWeb.de" version="2.0.3" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

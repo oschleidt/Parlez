@@ -1,0 +1,150 @@
+﻿body {
+	min-height: 500px;
+	padding: 0;
+	margin: 0;
+}
+
+.contentwrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	flex: 0 1 800px;
+	padding: 5px;
+}
+
+#view {
+	display: flex;
+	flex-direction: column;
+}
+
+#mainFrame {
+	flex: 1 1 100%;
+	overflow: auto;
+}
+
+/*
+#################################################
+################   HEADER   #####################
+#################################################
+*/
+
+#header {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 auto;
+}
+
+#banner {
+	flex: 0 1 200px;
+	text-align: center;
+}
+
+#navwrapper {
+	flex: 0 1 50px;
+	display: flex;
+	justify-content: center;
+}
+
+#navarea {
+	flex: 0 1 800px;
+	display: flex;
+	flex-direction: column;
+}
+
+#navbar {
+	flex: 0 1 auto;
+
+	border: 1px solid #000;
+	background-image: -webkit-linear-gradient(#fff 10%, #ddd 90%);
+	border-radius: 2px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: center;
+}
+
+.navbar_animation {
+    -webkit-transition: all linear 0.5s;
+    transition: all 0.5s;
+	flex: 0 1 35px;
+	margin-top: 5px;
+	font: 14px/35px "Verdana", Verdana, serif;
+}
+
+.navbar_animation.ng-hide {
+    display: block!important;
+    opacity:0.5;
+	flex: 0 1 15px;
+	margin-top: 0px;
+	font: 12px/15px "Verdana", Verdana, serif;
+}
+
+#navbar_trigger {
+    -webkit-transition: all linear 0.5s;
+    transition: all 0.5s;
+	flex: 0 1 25px;
+	font: bold 9px "Verdana", Verdana, serif;
+	text-decoration: underline;
+}
+ 
+#navbar_trigger.ng-hide {
+    display: block!important;
+    opacity: 0;
+	flex: 0 1 0px;
+    line-height: 0px;
+}
+
+.navlink {
+	width: 98px;	
+	float: left;
+	border-right: 1px solid #000;
+}
+
+.navlink:hover:not(:first-child) {
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(#ddd 10%, #aaa 90%);
+	cursor: pointer;
+}
+
+.navlink:nth-child(n+10) {
+	border-right: none;
+}
+
+/*
+#################################################
+################   CHAT   #######################
+#################################################
+*/
+
+#chatwrapper {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #000;
+}
+
+#onlineusers {
+	flex: 0 1 150px;
+	overflow: auto;
+	border-left: 1px solid #000;
+}
+
+#chatframe {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+}
+
+#chatcontent {
+	flex: 0 1 250px;
+	overflow: auto;
+}
+
+#chatinputwrapper {
+	flex: 0 1 auto;
+	border-top: 1px solid #000;
+}
+
+.userSelected {
+	background: red;
+}
